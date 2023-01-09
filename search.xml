@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>kettle介绍简单使用</title>
+      <title>kettle简单介绍</title>
       <link href="/2023/01/09/kattle-jie-shao-jian-dan-shi-yong/"/>
       <url>/2023/01/09/kattle-jie-shao-jian-dan-shi-yong/</url>
       
-        <content type="html"><![CDATA[<h1 id="本文简介"><a href="#本文简介" class="headerlink" title="本文简介"></a>本文简介</h1><p>博主在实习会用到很多陌生技术，此篇文章博主将根据自己的学习对kattle进行介绍和使用  </p><h2 id="kettle介绍"><a href="#kettle介绍" class="headerlink" title="kettle介绍"></a>kettle介绍</h2><p>对于企业或行业应用来说，经常会遇到各种数据的处理，转换，迁移，掌握一种etl工具的使用，必不可少，这里要学习的ETL工具是——Kettle，现在已经更名为PDI。  </p><p>Kettle是一款国外开源的ETL工具，纯java编写，可以在Windows、Linux、Unix上运行，绿色无需安装；  </p><p>支持传统关系型数据库（MySQL、Oracle、PostGres、SQLServer、DB2）；  </p><p>支持Big Data数据源（HDFS、Hive、HBase….）；  </p><p>Kettle 中文名称叫水壶，该项目的主程序员MATT希望把各种数据放到一个壶里，然后以一种指定的格式流出；  </p><p>Kettle允许管理来自不同数据库的数据，提供一个图形化的用户环境来描述想做什么，无需关心怎么做。  </p><h2 id="kettle中的重点概念"><a href="#kettle中的重点概念" class="headerlink" title="kettle中的重点概念"></a>kettle中的重点概念</h2><p>转换（ETL）——通过拖拽组件的方式，来搭建ETL数据流（数据抽取、数据转换、数据装载），通过可视化的形式来配置即可完成；  </p><p>作业（Job）——可以将若干个ETL组织启动，建立依赖关系，统一执行。  </p><h2 id="kettle数据流图"><a href="#kettle数据流图" class="headerlink" title="kettle数据流图"></a>kettle数据流图</h2><p><img src="/asset/images/kettle%E6%95%B0%E6%8D%AE%E6%B5%81%E5%9B%BE.jpg" alt="kettle数据流图" title="kettle数据流图"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="本文简介"><a href="#本文简介" class="headerlink" title="本文简介"></a>本文简介</h1><p>kettle简单介绍（划水文）</p><h2 id="kettle介绍"><a href="#kettle介绍" class="headerlink" title="kettle介绍"></a>kettle介绍</h2><p>对于企业或行业应用来说，经常会遇到各种数据的处理，转换，迁移，掌握一种etl工具的使用，必不可少，这里要学习的ETL工具是——Kettle，现在已经更名为PDI。  </p><p>Kettle是一款国外开源的ETL工具，纯java编写，可以在Windows、Linux、Unix上运行，绿色无需安装；  </p><p>支持传统关系型数据库（MySQL、Oracle、PostGres、SQLServer、DB2）；  </p><p>支持Big Data数据源（HDFS、Hive、HBase….）；  </p><p>Kettle 中文名称叫水壶，该项目的主程序员MATT希望把各种数据放到一个壶里，然后以一种指定的格式流出；  </p><p>Kettle允许管理来自不同数据库的数据，提供一个图形化的用户环境来描述想做什么，无需关心怎么做。  </p><h2 id="kettle中的重点概念"><a href="#kettle中的重点概念" class="headerlink" title="kettle中的重点概念"></a>kettle中的重点概念</h2><p>转换（ETL）——通过拖拽组件的方式，来搭建ETL数据流（数据抽取、数据转换、数据装载），通过可视化的形式来配置即可完成；  </p><p>作业（Job）——可以将若干个ETL组织启动，建立依赖关系，统一执行。  </p><h2 id="kettle数据流图"><a href="#kettle数据流图" class="headerlink" title="kettle数据流图"></a>kettle数据流图</h2><p><img src="/asset/images/kettle%E6%95%B0%E6%8D%AE%E6%B5%81%E5%9B%BE.jpg" alt="kettle数据流图" title="kettle数据流图"></p><h2 id="kettle安装"><a href="#kettle安装" class="headerlink" title="kettle安装"></a>kettle安装</h2><p>kettle安装之前需要安装配置jdk，此部分可以参考博客<a href="https://zhuanlan.zhihu.com/p/156906712">https://zhuanlan.zhihu.com/p/156906712</a>  </p>]]></content>
       
       
       <categories>
@@ -21,31 +21,6 @@
         <tags>
             
             <tag> kettle </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>我的第一篇博客</title>
-      <link href="/2022/07/22/wo-de-di-yi-pian-bo-ke/"/>
-      <url>/2022/07/22/wo-de-di-yi-pian-bo-ke/</url>
-      
-        <content type="html"><![CDATA[<p>markdown语法的简单使用</p><h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>markdown语法使用</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> markdown </tag>
             
         </tags>
       
